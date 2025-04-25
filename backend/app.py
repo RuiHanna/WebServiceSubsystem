@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # 允许前端跨域访问
 
-driver = GraphDatabase.driver("bolt://123.56.47.51:7687", auth=("neo4j", "jike2201!"))
+driver = GraphDatabase.driver("bolt://xxxx.xxxx.xxxx.xxxx:7687", auth=("neo4j", "xxxxx"))
 
 
 def fetch_graph_data():
